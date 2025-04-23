@@ -1,3 +1,6 @@
+// Import component styles
+@use '../components/Button/Button';
+
 // Base styles
 :root {
   --primary-color: #1677ff;
@@ -14,6 +17,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-// Import component styles
-@import '../components/Button/Button.scss';
