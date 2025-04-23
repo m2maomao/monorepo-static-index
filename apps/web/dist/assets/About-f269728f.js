@@ -1,1 +1,0 @@
-import{_ as o}from"./index-38ec8a4b.js";import{o as s,c as a,a as t}from"./vue-vendor-85cdc3ca.js";import"./ui-vendor-5c6f6939.js";const _={},c={class:"about"};function n(r,e){return s(),a("div",c,e[0]||(e[0]=[t("h1",null,"About Page",-1),t("p",null,"This is the about page",-1)]))}const d=o(_,[["render",n],["__scopeId","data-v-b6fa42c8"]]);export{d as default};
