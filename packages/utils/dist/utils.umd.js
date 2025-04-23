@@ -1,0 +1,1 @@
+(function(e,t){typeof exports=="object"&&typeof module<"u"?t(exports):typeof define=="function"&&define.amd?define(["exports"],t):(e=typeof globalThis<"u"?globalThis:e||self,t(e.VueMonorepoUtils={}))})(this,function(e){"use strict";const t=n=>n.toISOString(),o=n=>`$${n.toFixed(2)}`;e.formatCurrency=o,e.formatDate=t,Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

@@ -1,0 +1,24 @@
+{
+  "name": "@vue-monorepo/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/utils.umd.js",
+  "module": "./dist/utils.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/utils.es.js",
+      "require": "./dist/utils.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly --declaration --outDir dist",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.5.13"
+  }
+}

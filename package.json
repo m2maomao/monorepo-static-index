@@ -1,0 +1,20 @@
+{
+  "name": "vue-monorepo",
+  "private": true,
+  "scripts": {
+    "build:ui": "cd packages/ui && pnpm build",
+    "build:utils": "cd packages/utils && pnpm build",
+    "build:web": "cd apps/web && pnpm build",
+    "build:all": "pnpm build:utils && pnpm build:ui && pnpm build:web",
+    "dev": "pnpm build:all && cd apps/web && pnpm dev",
+    "clean": "pnpm -r clean && rm -rf node_modules",
+    "preview": "cd apps/web && pnpm preview"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "turbo": "^1.10.0",
+    "typescript": "^5.0.4",
+    "prettier": "^2.8.8",
+    "eslint": "^8.42.0"
+  }
+}

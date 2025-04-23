@@ -1,0 +1,17 @@
+{
+  "name": "@vue-monorepo/config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "eslint-preset.js",
+    "typescript-preset.json"
+  ],
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-vue": "^9.14.1"
+  }
+}

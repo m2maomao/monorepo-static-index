@@ -1,0 +1,19 @@
+// Base styles
+:root {
+  --primary-color: #1677ff;
+  --primary-hover-color: #4096ff;
+  --secondary-color: #ffffff;
+  --secondary-border-color: #d9d9d9;
+  --danger-color: #ff4d4f;
+  --danger-hover-color: #ff7875;
+}
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Import component styles
+@import '../components/Button/Button.scss';
